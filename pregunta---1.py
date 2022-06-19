@@ -13,11 +13,18 @@ for num in Lista:
 
 print("item 2 sin duplicados es:", resultaList)
 
-"""lista ordenada de mayor a menor"""
+"""lista ordenada de menor a mayor"""
 
 resultaList.sort()
 
 for numero in resultaList:
    print(numero, " ", end="")
+
+""" lista de mayor a menor"""
+resultaList.sort(reverse=True)
+
+for numero2 in resultaList:
+   print(numero2, " ", end="")
+
 
 
